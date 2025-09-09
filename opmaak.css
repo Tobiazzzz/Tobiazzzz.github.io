@@ -1,11 +1,12 @@
 body {
-    background-color: aqua;
+    background-color: rgb(95, 209, 247);
+    grid-auto-columns: auto;
 }
 
 h1 {
     color: white;
     text-align: center;
     font-style: oblique;
-    font-family: calc('dragon');
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
 }
