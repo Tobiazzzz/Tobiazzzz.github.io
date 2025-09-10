@@ -38,6 +38,6 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover { <!-- als je muis erover heen gaat-->
+ul li a:hover {
   background-color: #111111;
 } 
