@@ -19,6 +19,7 @@ p1 {
 }
 
 ul {
+  text-align: center;
   list-style-type: none;
   margin: 30;
   padding: 20;
