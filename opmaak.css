@@ -19,9 +19,8 @@ p1 {
 }
 
 ul {
-  text-align: center;
   list-style-type: none;
-  margin: 30;
+  margin: 0;
   padding: 20;
   overflow: hidden;
   background-color: #333333;
