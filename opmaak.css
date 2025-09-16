@@ -1,5 +1,10 @@
 body {
     background-color: bisque;
+    background-image: url("istockphoto-177512311-612x612.jpg"); /* pad relatief aan de CSS-file */
+    background-size: cover;       /* zorgt dat het de hele viewport vult */
+    background-position: center;  /* center de afbeelding */
+    background-repeat: no-repeat; /* niet herhalen */
+    background-attachment: fixed;
 }
 
 h1 {
