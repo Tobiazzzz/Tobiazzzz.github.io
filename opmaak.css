@@ -1,9 +1,5 @@
 body {
-    background-image: url("j8xOap.jpg"); /* pad relatief aan de CSS-file */
-    background-size: cover;       /* zorgt dat het de hele viewport vult */
-    background-position: center;  /* center de afbeelding */
-    background-repeat: no-repeat; /* niet herhalen */
-    background-attachment: fixed;
+background-color: bisque;
 }
 
 h1 {
