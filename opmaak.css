@@ -49,3 +49,11 @@ id {
     background-repeat: no-repeat; /* niet herhalen */
     background-attachment: fixed;
 }
+
+#homepage {
+    background-image: url("images/j8xOap.jpg");
+    background-size: cover;       /* zorgt dat het de hele viewport vult */
+    background-position: center;  /* center de afbeelding */
+    background-repeat: no-repeat; /* niet herhalen */
+    background-attachment: fixed;
+}
