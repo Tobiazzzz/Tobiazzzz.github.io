@@ -39,32 +39,52 @@ ul li a:hover {
   background-color: #111111;
 }
 
-/* dropdown standaard verbergen */
-ul li ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333333;
-  overflow: hidden;
+/*begin dropdownmenu*/
+
+.dropdown {
+  position: relative;
 }
 
-/* items in dropdown onder elkaar */
-ul li ul li {
-  float: left;
-}
-/* links in dropdown netjes links en leesbaar */
-ul li ul li a {
-  display: block;
+/* Style the dropdown button */
+.dropbtn {
+  background-color: #4CAF50;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-/* dropdown tonen bij hover */
-ul li ul li:hover {
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside dropdown content */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
   display: block;
-  background-color: #111111;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change background color of dropdown button on hover */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
 
 #Homepage { /*Alleen voor de pagina die de body met de naam "Homepage" heeft*/
