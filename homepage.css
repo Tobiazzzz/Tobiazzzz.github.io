@@ -51,7 +51,7 @@ ul li ul {
 /* items in dropdown onder elkaar */
 ul li ul li {
   float: left;
-
+}
 /* links in dropdown netjes links en leesbaar */
 ul li ul li a {
   display: block;
