@@ -20,10 +20,7 @@ ul {
   margin: 0;
   padding: 0;
   background-color: #333333;
-
-  /* verwijder dit of verander naar visible,
-     anders knipt 'overflow:hidden' je dropdown af */
-  overflow: visible;
+  overflow: hidden;
 }
 
 ul li {
@@ -45,29 +42,31 @@ ul li a:hover {
 
 /* dropdown standaard verbergen */
 ul li ul {
-  display: none;
-  position: absolute;
-  top: 100%;   /* direct onder het hoofditem */
-  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #333333;
-  min-width: 160px;
-  z-index: 1000;
+  overflow: hidden;
 }
 
 /* items in dropdown onder elkaar */
 ul li ul li {
-  float: none; /* niet naast elkaar */
-}
+  float: left;
+  position: relative;}
 
 /* links in dropdown netjes links en leesbaar */
 ul li ul li a {
-  text-align: left;
-  padding: 12px 16px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* dropdown tonen bij hover */
-ul li:hover > ul {
+ul li ul li:hover {
   display: block;
+  background-color: #111111;
 }
 
 #Homepage { /*Alleen voor de pagina die de body met de naam "Homepage" heeft*/
