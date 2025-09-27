@@ -1,13 +1,6 @@
-body {
-    background-image: url("images/j8xOap.jpg");
-    background-size: cover;       /* zorgt dat het de hele viewport vult */
-    background-position: center;  /* center de afbeelding */
-    background-repeat: no-repeat; /* niet herhalen */
-    background-attachment: fixed;
-}
 
-h1 {
-    color: white;
+h1 { /* gaat over h1 */
+    color: white; /* Kleur aanpassen */
     text-align: center;
     font-style: oblique;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -26,12 +19,16 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333333;
+
+  /* verwijder dit of verander naar visible,
+     anders knipt 'overflow:hidden' je dropdown af */
+  overflow: visible;
 }
 
 ul li {
   float: left;
+  position: relative; /* belangrijk voor absolute positioning van dropdown */
 }
 
 ul li a {
@@ -42,6 +39,42 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover { /* als je erover heen gaat met muis */
+ul li a:hover {
   background-color: #111111;
-} 
+}
+
+/* dropdown standaard verbergen */
+ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;   /* direct onder het hoofditem */
+  left: 0;
+  background-color: #333333;
+  min-width: 160px;
+  z-index: 1000;
+}
+
+/* items in dropdown onder elkaar */
+ul li ul li {
+  float: none; /* niet naast elkaar */
+}
+
+/* links in dropdown netjes links en leesbaar */
+ul li ul li a {
+  text-align: left;
+  padding: 12px 16px;
+}
+
+/* dropdown tonen bij hover */
+ul li:hover > ul {
+  display: block;
+}
+
+#Homepage { /*Alleen voor de pagina die de body met de naam "Homepage" heeft*/
+    background-image: url("images/9bf9823c76e64c12a99c9f9573b12c32.jpg"); /*Achtergrond afbeelding*/
+    background-size: cover;       /* zorgt dat het de hele beeld wordt gevult */
+    background-position: center;  /* positie van afbeelding in midden */
+    background-repeat: no-repeat; /* niet herhalen */
+    background-attachment: fixed; /* ff opzoeken */
+    
+}
