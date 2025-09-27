@@ -19,7 +19,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: visible; /*!!*/
   background-color: #333333;
 }
 
@@ -38,6 +38,11 @@ ul li a {
 ul li a:hover { /* als je erover heen gaat met muis */
   background-color: #111111;
 } 
+
+ul li ul li a {
+  text-align: left;
+  padding: 12px 16px;
+}
 
 /* dropdown menu */
 ul li ul.dropdown {
