@@ -25,7 +25,6 @@ ul {
 
 ul li {
   float: left;
-  position: relative; /* belangrijk voor absolute positioning van dropdown */
 }
 
 ul li a {
@@ -52,7 +51,6 @@ ul li ul {
 /* items in dropdown onder elkaar */
 ul li ul li {
   float: left;
-  position: relative;}
 
 /* links in dropdown netjes links en leesbaar */
 ul li ul li a {
