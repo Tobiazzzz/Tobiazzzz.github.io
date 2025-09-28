@@ -47,10 +47,10 @@ ul li a:hover {
 
 /* Style the dropdown button */
 .dropbtn {
-  background-color: black;
-  color: white;
+  color: black;
   padding: 16px;
-  border: wheat
+  border: color-mix(in hsl shorter hue, color percentage, color percentage);
+  cursor: pointer;
 }
 
 /* Dropdown content */
@@ -62,7 +62,7 @@ ul li a:hover {
 
 /* Links inside dropdown content */
 .dropdown-content a {
-  display: block;
+display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
