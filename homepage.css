@@ -41,14 +41,14 @@ ul li a:hover {
 
 /*begin dropdownmenu*/
 .dropdown {
-  position: relative;
+  position: fixed
 }
 
 /* Style the dropdown button */
 .dropbtn {
   color: #ffffff;
   padding: 16px;
-  border: none;
+  border: transparent;
   cursor: pointer;
 }
 
