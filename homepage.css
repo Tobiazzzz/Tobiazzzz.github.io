@@ -47,15 +47,15 @@ ul li a:hover {
 
 /* Style the dropdown button */
 .dropbtn {
-  color: black;
+  background-color: black;
+  color: white;
   padding: 16px;
-  border: color-mix(in hsl shorter hue, color percentage, color percentage);
-  cursor: pointer;
+  border: wheat
 }
 
 /* Dropdown content */
 .dropdown-content {
-  display: none;
+  display: block;
   color: #4b4b4b;
   min-width: 200px;
 }
