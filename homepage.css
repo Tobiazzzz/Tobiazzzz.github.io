@@ -48,7 +48,7 @@ ul li a:hover {
 .dropbtn {
   color: black;
   padding: 16px;
-  border: transparent;
+  border: color-mix(in hsl shorter hue, color percentage, color percentage);
   cursor: pointer;
 }
 
