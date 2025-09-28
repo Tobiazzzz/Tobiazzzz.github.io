@@ -62,13 +62,11 @@ ul li a:hover {
 
 /* Links inside dropdown content */
 .dropdown-content a {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 12px 14px;
-  text-decoration: none;
   display: block;
-  border-width: 2px;
-  border-color: white;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Change color of dropdown links on hover */
