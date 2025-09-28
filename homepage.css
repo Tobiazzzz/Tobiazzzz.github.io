@@ -23,8 +23,7 @@ ul {
 }
 
 ul li {
-  float: left;
-  margin-left: 100px;
+  float: left
 
 }
 
@@ -42,7 +41,7 @@ ul li a:hover {
 
 /*begin dropdownmenu*/
 .dropdown {
-  position: relative
+  position: fixed
 }
 
 /* Style the dropdown button */
