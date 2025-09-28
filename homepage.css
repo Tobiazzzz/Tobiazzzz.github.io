@@ -57,7 +57,7 @@ ul li a:hover {
 .dropdown-content {
   display: none;
   background-color: #4b4b4b;
-  min-width: 200px;
+  min-width: 120px;
 }
 
 /* Links inside dropdown content */
