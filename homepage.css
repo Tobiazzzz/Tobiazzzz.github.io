@@ -39,20 +39,6 @@ ul li a:hover {
   background-color: #111111;
 }
 
-/*begin dropdownmenu*/
-.dropdown {
-  position: fixed
-}
-
-/* Style the dropdown button */
-.dropbtn {
-  background-color: #333333;
-  color: white;
-  padding: 16px;
-  border: none;
-  cursor: pointer;
-}
-
 /* Dropdown content */
 .dropdown-content {
   display: none;
