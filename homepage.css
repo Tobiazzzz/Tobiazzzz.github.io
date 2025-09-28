@@ -6,7 +6,7 @@ h1 { /* gaat over h1 */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
     text-shadow: 3cm;
-
+    -webkit-text-stroke-color: #111111;
 }
 
 p1 {
