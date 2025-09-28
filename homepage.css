@@ -24,10 +24,11 @@ ul {
 
 ul li {
   float: left;
+  margin-left: 100px;
+
 }
 
 ul li a {
-  margin-left: 100px;
   display: block;
   color: white;
   text-align: center;
