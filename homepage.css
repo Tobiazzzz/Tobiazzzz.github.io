@@ -8,6 +8,22 @@ h1 { /* gaat over h1 */
     text-shadow: 3cm;
 }
 
+p {
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  display: block;
+}
+
+p2 {
+  color: white;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  display: block;
+}
+
 p1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
