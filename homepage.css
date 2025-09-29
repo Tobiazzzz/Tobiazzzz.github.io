@@ -33,6 +33,12 @@ p1 {
     margin: 10px;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
