@@ -8,6 +8,8 @@ h1 { /* gaat over h1 */
     text-shadow: 3cm;
     text-decoration: underline;
     text-decoration-color: black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
 }
 
 p {
@@ -15,6 +17,8 @@ p {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
 }
 
 p2 {
@@ -22,6 +26,8 @@ p2 {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
 }
 
 p1 {
