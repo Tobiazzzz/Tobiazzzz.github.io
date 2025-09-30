@@ -99,6 +99,9 @@ footer {
   color: white;
   position: fixed;
   text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
 
 }
 
