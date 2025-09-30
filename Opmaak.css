@@ -95,11 +95,10 @@ footer {
   color: black;
   background-color: white;
   font-family: 'Times New Roman', Times, serif;
-  position: relative; /*Dat het hele tijd op zelfde plek blijft.*/
+  position: fixed; /*Dat het hele tijd op zelfde plek blijft.*/
   text-align: center;
   bottom: 0;
   width: 100%; /*zo ver mogelijk uitgerekt*/
-
 }
 
 footer :hover {
