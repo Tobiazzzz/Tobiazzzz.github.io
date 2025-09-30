@@ -113,3 +113,19 @@ footer :hover {
     background-repeat: no-repeat; /* niet herhalen */
     background-attachment: fixed; /* ff opzoeken */
 }
+
+#Binair { 
+    background-image: url("images/binary_14.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Compressie { 
+    background-image: url("images/data-compression.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
