@@ -2,7 +2,7 @@
 h1 { /* gaat over h1 */
     color: white; /* Kleur aanpassen */
     text-align: center; /*tekst in midden van het beeld*/
-    font-style: oblique;
+    font-style: oblique;/*Schuine tekst*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*tekst font*/
     font-size: 125px; /*tekst grootte*/
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /*drop shadow*/
@@ -30,44 +30,44 @@ p2 {
 p1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    margin: 10px;
+    margin: 10px; /*ruimte buiten element*/
 }
 
-img {
+/*img {
   display: block;
   align-items: center;
-}
+}*/
 
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
+  padding: 0; /*buiten binnen het vak is 0 (tussen rand en inhoud)*/
+  overflow: hidden;/*Inhoud buiten element wordt verborgen*/
   background-color: #333333;
 }
 
 ul li {
-  float: left
+  float: left /*Naar linkerkant van beeld*/
 
 }
 
 ul li a {
-  display: block;
+  display: block; /*'blok' op een regel*/
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; /*geen decoratie, zoals underscore*/
 }
 
-ul li a:hover {
+ul li a:hover { /*Als je met je muis erover heen gaat, alleen voor elementen die in de lijst staan*/
   background-color: #111111;
 }
 
-/* Dropdown content */
+/* Dropdown content of groep */
 .dropdown-content {
   display: none;
   background-color: #a7a7a7;
-  min-width: 120px;
+  min-width: 120px; /*hoe breed*/
 }
 
 /* Links inside dropdown content */
@@ -95,11 +95,9 @@ footer {
   color: black;
   background-color: white;
   font-family: 'Times New Roman', Times, serif;
-  position: fixed;
+  position: fixed; /*Dat het hele tijd op zelfde plek blijft.*/
   text-align: center;
-  width: 100%;
-  padding-top: 8px 0;
-  box-sizing: border-box;
+  width: 100%; /*zo ver mogelijk uitgerekt*/
 
 }
 
