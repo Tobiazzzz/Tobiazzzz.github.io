@@ -1,11 +1,11 @@
 
 h1 { /* gaat over h1 */
     color: white; /* Kleur aanpassen */
-    text-align: center;
+    text-align: center; /*tekst in midden van het beeld*/
     font-style: oblique;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 125px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*tekst font*/
+    font-size: 125px; /*tekst grootte*/
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /*drop shadow*/
 
 }
 
