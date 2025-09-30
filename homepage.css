@@ -94,6 +94,17 @@ ul li a:hover {
   background-color:black;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  position: fixed;
+
+}
+
+footer :hover {
+  color: #333333;
+}
+
 #Homepage { /*Alleen voor de pagina die de body met de naam "Homepage" heeft*/
     background-image: url("images/9bf9823c76e64c12a99c9f9573b12c32.jpg"); /*Achtergrond afbeelding*/
     background-size: cover;       /* zorgt dat het de hele beeld wordt gevult */
