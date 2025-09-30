@@ -79,17 +79,14 @@ ul li a:hover {
   text-decoration: none;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: black
 }
 
-/* Show the dropdown content on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change background color of dropdown button on hover */
 .dropdown:hover .dropbtn {
   background-color:black;
 }
@@ -101,7 +98,8 @@ footer {
   position: fixed;
   text-align: center;
   width: 100%;
-  padding-top: 10px;
+  padding-top: 10px 0;
+  box-sizing: border-box;
 
 }
 
