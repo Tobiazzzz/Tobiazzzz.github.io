@@ -137,3 +137,11 @@ footer :hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+#Computer {
+  background-image: url("images/Desk.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
